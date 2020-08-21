@@ -22,6 +22,9 @@ Gem::Specification.new do |s|
     end
   end
 
+  # APPMAP
+  s.add_development_dependency 'appmap'
+
   s.add_development_dependency 'test-unit', '~> 3.2'
   s.add_development_dependency 'rake-compiler', '~> 1.1'
   s.add_development_dependency 'rake-compiler-dock', '~> 0.6.3'
